@@ -1,0 +1,49 @@
+{
+  "name": "modarium",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Context API based modal management for React - No Redux required",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "bin": {
+    "modarium": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "keywords": [
+    "modal",
+    "react",
+    "context",
+    "dialog",
+    "popup"
+  ],
+  "author": "Fatih Guzel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fatihguzel/modarium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fatihguzel/modarium/issues"
+  },
+  "homepage": "https://github.com/fatihguzel/modarium#readme"
+}
