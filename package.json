@@ -16,7 +16,7 @@
     "bin"
   ],
   "bin": {
-    "modarium": "./bin/cli.js"
+    "modarium": "bin/cli.js"
   },
   "scripts": {
     "build": "node build.js",
@@ -40,7 +40,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fatihguzel/modarium.git"
+    "url": "git+https://github.com/fatihguzel/modarium.git"
   },
   "bugs": {
     "url": "https://github.com/fatihguzel/modarium/issues"
